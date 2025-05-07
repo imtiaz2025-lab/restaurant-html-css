@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url(eiliv-aceron-2LzqR50_NTw-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header Layout */
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: rgba(37, 33, 33, 0.842);
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+
+.header-menu-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-menu nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header-menu nav li {
+    list-style: none;
+}
+
+.header-menu nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    transition: 0.2s;
+}
+
+
+.header-menu nav li a:hover{
+
+    color: #f8bf2c;
+}
+
+.header-icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+
+.header-icon a {
+
+    color: white;
+}
+
+.header-hr {
+    width: 1px;
+    height: 50px;
+    background-color: rgb(230, 226, 226);
+    border: none;
+}
+
+.book-table .btn {
+    background-color: #f8bf2c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: 0.4s ease;
+
+
+
+
+}
+
+.book-table .btn:hover {
+
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+
+
+}
+
+/* header end */
+
+
+
+/* main starts */
+
+/* part-1 start */
+
+.container-part-1 {
+
+
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(burger.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.part-1-content {
+
+    margin-top: 120px;
+}
+
+
+.part-1-content h1 {
+
+    color: white;
+    font-size: 60px;
+    margin-top: 30px;
+    letter-spacing: 7px;
+
+}
+
+
+
+.part-1-content p {
+
+    color: white;
+    margin: 20px 0;
+    font-size: 32px;
+    font-family: "Satisfy", cursive;
+}
+
+
+.btn2 {
+
+    padding: 15px 35px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
+    
+
+
+}
+
+.btn2:hover{
+
+    background-color: rgba(128, 128, 128, 0.349);
+}
+
+
+/* part-1 end */
+
+
+
+/* part-2 starts */
+
+
+.container-part-2{
+
+
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.part-2-desc-btn {
+
+    display: flex;
+    flex-direction:column ;
+
+
+
+}
+
+.part-2-desc-btn .desc h2{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    
+}
+
+.part-2-desc-btn .desc .desc-para{
+  
+    color: gray;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.part-2-desc-btn .desc .title{
+
+color: #f8bf2c;
+margin: 20px;
+margin-bottom: 0;
+font-size: 50px;
+font-family: "Satisfy", cursive;
+text-align: center;
+
+
+
+}
+
+.part-2-desc-btn .button{
+
+
+    text-align: center;
+}
+
+.part-2-desc-btn .button .btn3{
+
+    background-color: #f8bf2c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: 0.4s ease;
+    
+
+}
+
+.part-2-desc-btn .button .btn3:hover{
+
+    background-color: #be9326;
+    color: white;
+    border: 2px solid white;
+
+}
+
+
+/* part-2 ends */
+
+
+
+
+/* main end */
