@@ -10,6 +10,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+
 }
 
 /* Header Layout */
@@ -50,7 +52,7 @@ header {
 }
 
 
-.header-menu nav li a:hover{
+.header-menu nav li a:hover {
 
     color: #f8bf2c;
 }
@@ -118,7 +120,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+
 }
 
 .part-1-content {
@@ -155,12 +157,12 @@ header {
     color: white;
     font-weight: bold;
     transition: 0.2s;
-    
+
 
 
 }
 
-.btn2:hover{
+.btn2:hover {
 
     background-color: rgba(128, 128, 128, 0.349);
 }
@@ -173,66 +175,71 @@ header {
 /* part-2 starts */
 
 
-.container-part-2{
+.container-part-2 {
 
 
     background-color: white;
     display: flex;
+    flex-direction: row;
     width: 100%;
-    height: 400px;
+    height: 450px;
     justify-content: center;
     align-items: center;
     gap: 100px;
+
+
 }
 
 
 .part-2-desc-btn {
 
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
+
+
 
 
 
 }
 
-.part-2-desc-btn .desc h2{
+.part-2-desc-btn .desc h2 {
     text-align: center;
     font-size: 40px;
     letter-spacing: 2px;
     margin-top: 0;
     margin-bottom: 30px;
 
-    
+
 }
 
-.part-2-desc-btn .desc .desc-para{
-  
+.part-2-desc-btn .desc .desc-para {
+
     color: gray;
     text-align: center;
     margin-bottom: 30px;
 }
 
 
-.part-2-desc-btn .desc .title{
+.part-2-desc-btn .desc .title {
 
-color: #f8bf2c;
-margin: 20px;
-margin-bottom: 0;
-font-size: 50px;
-font-family: "Satisfy", cursive;
-text-align: center;
+    color: #f8bf2c;
+    margin: 20px;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-family: "Satisfy", cursive;
+    text-align: center;
 
 
 
 }
 
-.part-2-desc-btn .button{
+.part-2-desc-btn .button {
 
 
     text-align: center;
 }
 
-.part-2-desc-btn .button .btn3{
+.part-2-desc-btn .button .btn3 {
 
     background-color: #f8bf2c;
     border: none;
@@ -241,11 +248,11 @@ text-align: center;
     text-transform: uppercase;
     font-weight: bolder;
     transition: 0.4s ease;
-    
+
 
 }
 
-.part-2-desc-btn .button .btn3:hover{
+.part-2-desc-btn .button .btn3:hover {
 
     background-color: #be9326;
     color: white;
@@ -253,10 +260,97 @@ text-align: center;
 
 }
 
+.part-2-img .img {
+
+
+    height: 300px;
+    width: 450px;
+    border: 2px solid black;
+
+}
+
+
 
 /* part-2 ends */
 
 
+
+
+/* part-3 starts */
+
+.container-part-3 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+    align-items: center;
+    height: 350px;
+    width: 100%;
+    gap: 60px;
+}
+
+
+.container-part-3 h1{
+
+
+    color: #f8bf2c;
+    font-family: "Satisfy", cursive;
+    font-size: 45px;
+}
+
+
+.container-part-3 h2{
+
+    font-size:40px ;
+    color: rgb(121, 41, 41);
+}
+
+.container-part-3::after{
+
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* part-3 end */
+
+
+/* part 5 starts */
+.container-part-5{
+
+background-color: transparent;
+height: 500px;
+width: 100%;
+display: block;
+position: relative;
+left: 400px;
+padding-top: 100px;
+padding-bottom: 50pxs;
+
+
+
+}
+
+.container-part-5 .menu{
+
+   display: flex;
+   justify-content: center;
+   color: white;
+   gap: 20px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+/* part 5 ensds */
 
 
 /* main end */
