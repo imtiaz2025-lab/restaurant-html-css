@@ -1,0 +1,629 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(jilbert-ebrahimi-kj4fRRj5Tqc-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+/* Header Layout */
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: rgba(37, 33, 33, 0.842);
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+
+.header-menu-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-menu nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header-menu nav li {
+    list-style: none;
+}
+
+.header-menu nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    transition: 0.2s;
+}
+
+
+.header-menu nav li a:hover {
+
+    color: #f8bf2c;
+}
+
+.header-icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+
+.header-icon a {
+
+    color: white;
+}
+
+.header-hr {
+    width: 1px;
+    height: 50px;
+    background-color: rgb(230, 226, 226);
+    border: none;
+}
+
+.book-table .btn {
+    background-color: #f8bf2c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: 0.4s ease;
+
+
+
+
+}
+
+.book-table .btn:hover {
+
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+
+
+}
+
+/* header end */
+
+
+
+
+/* part-1 start */
+
+.container-part-1 {
+
+
+    background-color: transparent;
+    /* background-position: center; */
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.part-1-content {
+
+    margin-top: 120px;
+
+}
+
+
+.part-1-content h1 {
+
+    color: white;
+    font-size: 50px;
+    margin-top: 0;
+    letter-spacing: 0;
+
+}
+
+.part-1-content .part-1-hr {
+
+    border: 2px solid #f8bf2c;
+    width: 50px;
+    position: relative;
+    left: 320px;
+    margin: 20px auto;
+    margin-left: 5px;
+
+}
+
+
+
+.part-1-content .title {
+
+    color: #f8bf2c;
+    margin: 20px 0;
+    font-size: 60px;
+    font-family: "Satisfy", cursive;
+}
+
+.container-part-1 .part-1-content .part-1-desc {
+
+    color: white;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+
+/* part-1 end */
+
+
+/* part-2 starts */
+
+
+.part-2-content {
+
+
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 500px;
+    width: 100%;
+    gap: 300px;
+    margin-top: 100px;
+}
+
+
+
+.left-side-bottom .form .left-part {
+
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.left-side-bottom .form .right-part {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+
+}
+
+
+.left-side-bottom .form {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+.left-side-top {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-side-top .top-title {
+
+    color: #f8bf2c;
+    font-family: "Satisfy", cursive;
+    font-size: 30px;
+}
+
+.left-side-top h2 {
+
+
+    font-size: 50px;
+    color: rgb(5, 5, 5);
+}
+
+
+.left-side-top .top-desc {
+
+    color: gray;
+    line-height: 20px;
+}
+
+
+.left-side {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.part-2-content .right-side .chef {
+
+
+    height: 400px;
+}
+
+#btn {
+
+    padding: 5px 10px;
+    margin: 20px 0;
+    margin-left: 30px;
+    height: 50px;
+    background-color: #f8bf2c;
+    color: white;
+    font-weight: bold;
+    border: none;
+
+}
+
+
+.btn-0 {
+
+    padding: 10px;
+}
+
+
+/* part-2 ends */
+
+
+/* part-3-starts */
+
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.video-background .content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    top: 50%;
+}
+
+
+
+
+
+/* part-3-ends */
+
+
+
+
+
+/* part-3 starts */
+
+
+.container-part-2 {
+
+
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+
+}
+
+
+.part-2-desc-btn {
+
+    display: flex;
+    flex-direction: column;
+
+
+
+
+
+}
+
+.part-2-desc-btn .desc h2 {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: black;
+
+
+}
+
+.part-2-desc-btn .desc .desc-para {
+
+    color: gray;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.part-2-desc-btn .desc .title {
+
+    color: #f8bf2c;
+    margin: 20px;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-family: "Satisfy", cursive;
+    text-align: center;
+
+
+
+}
+
+.part-2-desc-btn .button {
+
+
+    text-align: center;
+}
+
+.part-2-desc-btn .button .btn3 {
+
+    background-color: #f8bf2c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: 0.4s ease;
+
+
+}
+
+.part-2-desc-btn .button .btn3:hover {
+
+    background-color: #be9326;
+    color: white;
+    border: 2px solid white;
+
+}
+
+.part-2-img .img {
+
+
+    height: 300px;
+    width: 450px;
+    border: 2px solid black;
+
+}
+
+
+
+/* part-4 ends */
+
+
+
+/* main end */
+
+
+
+
+
+
+/* footer starts */
+
+
+footer {
+
+    height: 400px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.footer-container {
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.footer-upper-part {
+
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+
+}
+
+
+
+
+.upper-card-1 {
+
+
+    text-align: left;
+    margin: 25px 0;
+}
+
+
+.upper-card-1 .title {
+
+
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.upper-card-1 .card-1 {
+
+    border: 2px solid #f8bf2c;
+    margin-top: 10px;
+    width: 50px;
+    margin-bottom: 3px;
+
+}
+
+
+.upper-card-1 .upper-card-1-desc {
+
+    color: white;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.upper-card-1 .btn-6 {
+
+
+    background-color: #f8bf2c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: 0.4s ease;
+
+
+
+}
+
+.upper-card-1 .btn-6:hover {
+
+    color: white;
+    background-color: transparent;
+
+}
+
+.upper-card-3 {
+
+
+    text-align: left;
+    margin: 25px 0;
+}
+
+
+.upper-card-3 .title {
+
+
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+
+.upper-card-3 .card-1 {
+
+    border: 2px solid #f8bf2c;
+    margin-top: 10px;
+    width: 50px;
+    margin-bottom: 3px;
+
+}
+
+.upper-card-3 .images {
+
+
+    display: flex;
+    flex-direction: row;
+}
+
+.img-1 {
+
+
+    border: 2px solid #292929;
+    border-bottom: none;
+}
+
+
+.upper-card-4 {
+
+
+    text-align: left;
+    margin: 25px 0;
+}
+
+
+
+.upper-card-4 .title {
+
+
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+
+.upper-card-4 .card-1 {
+
+    border: 2px solid #f8bf2c;
+    margin-top: 10px;
+    width: 50px;
+    margin-bottom: 3px;
+
+}
+
+
+.footer-lower-part{
+
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+    justify-content: ;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.lower-part-icon i{
+
+    font-size: 20px;
+    color: white;
+
+}
+
+
+
+/* footer ends */
+
