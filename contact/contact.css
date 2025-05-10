@@ -230,13 +230,10 @@ header {
     border: 1px solid rgb(196, 195, 195);
 }
 
-/* footer */
+/* ---------- Footer ---------- */
 footer {
-    width: 100%;
-    background-color: rgba(61, 57, 57, 0.658);
-    display: flex;
-    justify-content: center;
-    padding: 40px 0;
+    background-color: transparent;
+    padding: 50px 20px;
 }
 
 .footer-container {
@@ -247,35 +244,34 @@ footer {
 
 .footer-upper-part {
     display: flex;
-    flex-direction: row;
-    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
 
-.upper-card-1, .upper-card-3, .upper-card-4 {
-    text-align: left;
-    margin: 25px 0;
+.upper-card-1,
+.upper-card-3,
+.upper-card-4 {
+    text-align: center;
+    width: 250px;
 }
 
 .upper-card-1 .title,
 .upper-card-3 .title,
 .upper-card-4 .title {
     color: white;
-    margin-top: 10px;
-    margin-bottom: 0;
-}
-
-.upper-card-1 .card-1,
-.upper-card-3 .card-1,
-.upper-card-4 .card-1 {
-    border: 2px solid #f8bf2c;
-    margin-top: 10px;
-    width: 50px;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
 }
 
 .upper-card-1 .upper-card-1-desc {
     color: white;
-    margin: 20px 0;
+    margin-bottom: 10px;
+}
+
+.upper-card-3 .images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 .upper-card-1 .btn-6 {
@@ -284,44 +280,34 @@ footer {
     padding: 10px 20px;
     border-radius: 5px;
     text-transform: uppercase;
-    font-weight: bolder;
-    transition: 0.4s ease;
+    font-weight: bold;
+    transition: 0.4s;
 }
 
 .upper-card-1 .btn-6:hover {
-    color: white;
     background-color: transparent;
-}
-
-.upper-card-3 .images {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-}
-
-.img-1 {
-    border: 2px solid #292929;
-    border-bottom: none;
+    color: white;
 }
 
 .footer-lower-part {
     display: flex;
-    flex-direction: row;
-    gap: 400px;
-    align-items: center;
-    margin-top: 20px;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
 }
 
 .lower-part-icon i {
-    font-size: 20px;
+    font-size: 24px;
     color: white;
+    margin: 0 5px;
 }
 
-/* Responsive styles */
+
+/* ---------- RESPONSIVE ---------- */
 @media (max-width: 992px) {
     header {
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
     }
 
     .header-menu-icon {
@@ -334,92 +320,65 @@ footer {
         height: 1px;
     }
 
-    .container-part-1 {
-        height: auto;
-    }
+    .container-part-1 .part-1-content .part-1-desc {
 
-    .container-part-1 .part-1-content .title {
-        font-size: 25px;
+        font-size: 15px;
+        text-align: center;
     }
 
     .container-part-1 .part-1-content h1 {
+
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-part-1 .part-1-content .title {
+
+        font-size: 20px;
+        padding: 0;
+    }
+
+
+    .part-2-middle {
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+
+    .part-2-container .part-2-content .part-2-top h1 {
+
+
         font-size: 30px;
     }
 
-    .container-part-1 .part-1-content .part-1-desc {
-        font-size: 20px;
+
+    .part-2-container .part-2-content .part-2-top .top-desc {
+
+        font-size: 10px;
     }
 
-    .part-2-middle {
-        flex-direction: column;
-        gap: 60px;
-    }
+    .part-2-content {
 
-    .part-2-container {
-        height: auto;
-    }
-
-    .part-2-container .part-2-content .part-2-top h1 {
-        font-size: 25px;
-    }
-
-    .footer-upper-part {
-        flex-direction: column;
-        gap: 20px;
-        align-items: center;
-        text-align: center;
-    }
-
-    .footer-lower-part {
-        flex-direction: column;
-        gap: 15px;
-        text-align: center;
-        margin-top: 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    body {
-        width: auto;
-    }
-
-    .header-menu nav {
-        flex-direction: row;
-        gap: 7px;
-    }
-
-    .btn-0,
-    .btn-1 {
-        width: 90%;
-    }
-
-    .footer-upper-part {
-        gap: 15px;
-    }
-
-    .footer-lower-part {
+        margin-top: 5px;
+        padding-top: 5px;
         gap: 10px;
     }
-}
 
-@media (max-width: 576px) {
-    .container-part-1 .part-1-content .title {
-        font-size: 20px;
+    .part-2-middle .middle-left-side {
+        width: auto;
+        gap: 1px;
+
+
     }
 
-    .container-part-1 .part-1-content h1 {
-        font-size: 25px;
-    }
+    .part-2-middle .middle-right-side{
 
-    .container-part-1 .part-1-content .part-1-desc {
-        font-size: 16px;
-    }
-
-    .button-2 {
         width: auto;
     }
 
-    .lower-part-icon i {
-        font-size: 24px;
-    }
 }
