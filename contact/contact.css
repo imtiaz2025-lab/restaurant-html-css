@@ -139,7 +139,7 @@ header {
 
 }
 
-.part-1-content .part-1-hr{ 
+.part-1-content .part-1-hr {
 
     border: 2px solid #f8bf2c;
     width: 50px;
@@ -147,12 +147,12 @@ header {
     left: 320px;
     margin: 20px auto;
     margin-left: 5px;
-    
+
 }
 
 
 
-.part-1-content .title{
+.part-1-content .title {
 
     color: #f8bf2c;
     margin: 20px 0;
@@ -160,7 +160,7 @@ header {
     font-family: "Satisfy", cursive;
 }
 
-.container-part-1 .part-1-content .part-1-desc{
+.container-part-1 .part-1-content .part-1-desc {
 
     color: white;
     line-height: 30px;
@@ -175,20 +175,20 @@ header {
 
 
 
-.part-2-middle .middle-left-side{
+.part-2-middle .middle-left-side {
 
- display: flex;
+    display: flex;
 
- flex-direction: column;
- justify-content: center;
- align-items: center;
- gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
 
 }
 
 
-.part-2-middle{
+.part-2-middle {
 
 
     display: flex;
@@ -199,18 +199,18 @@ header {
 }
 
 
-.part-2-top{
+.part-2-top {
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 
 }
 
 
-.part-2-content{
+.part-2-content {
 
     display: flex;
     flex-direction: column;
@@ -222,37 +222,37 @@ header {
     gap: 50px;
 }
 
-.part-2-container{
+.part-2-container {
 
-background-color: white;
-height: 500px;
-width: 100%;
+    background-color: white;
+    height: 500px;
+    width: 100%;
 
-
-}
-
-.part-2-content .part-2-top h1{
-
-  font-size: 40px;
 
 }
 
-.btn-0{
+.part-2-content .part-2-top h1 {
 
-padding: 5px;
-height: 40px;
-width: 300px;
-border: 2px solid gray;
-font-weight: bold;
-border-radius:10px ;
-text-align: center;
-margin: 3px;
-box-shadow: 2px 2px 2px rgba(92, 90, 90, 0.699);
-transition: .2s;
+    font-size: 40px;
 
 }
 
-.btn-0:hover{
+.btn-0 {
+
+    padding: 5px;
+    height: 40px;
+    width: 300px;
+    border: 2px solid gray;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    margin: 3px;
+    box-shadow: 2px 2px 2px rgba(92, 90, 90, 0.699);
+    transition: .2s;
+
+}
+
+.btn-0:hover {
 
     background-color: rgba(248, 248, 248, 0.418);
     font-size: 15px;
@@ -262,7 +262,7 @@ transition: .2s;
 }
 
 
-.btn-1{
+.btn-1 {
 
     height: 150px;
     width: 400px;
@@ -274,11 +274,10 @@ transition: .2s;
     font-weight: bold;
     box-shadow: 2px 2px 2px gray;
     h
-    
 }
 
 
-.btn-1:hover{
+.btn-1:hover {
 
     background-color: rgba(248, 248, 248, 0.418);
     font-size: 15px;
@@ -288,14 +287,14 @@ transition: .2s;
 }
 
 
-.button-2{
+.button-2 {
 
-padding: 10px 15px;
-margin-bottom: 10px;
-background-color: #f8bf2c;
-color: white;
-border: none;
-box-shadow: 2px 2px 2px gray;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: #f8bf2c;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
 
 
 }
@@ -303,7 +302,7 @@ box-shadow: 2px 2px 2px gray;
 
 
 
-.button-2:hover{
+.button-2:hover {
 
     background-color: rgba(248, 248, 248, 0.418);
     font-size: 15px;
@@ -328,7 +327,7 @@ footer {
     background-color: rgba(61, 57, 57, 0.658);
     display: flex;
     justify-content: center;
-    
+
 
 }
 
@@ -479,7 +478,7 @@ footer {
 }
 
 
-.footer-lower-part{
+.footer-lower-part {
 
     display: flex;
     flex-direction: row;
@@ -490,11 +489,95 @@ footer {
 }
 
 
-.lower-part-icon i{
+.lower-part-icon i {
 
     font-size: 20px;
     color: white;
 
+}
+
+
+
+/* footer ends */
+
+
+
+
+/* responsive stats */
+
+
+@media (max-width: 992px) {
+
+
+
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header-menu-icon {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .header-hr {
+        width: 80%;
+        height: 1px;
+    }
+
+    .container-part-1 {
+
+        height: 600px;
+
+    }
+
+
+    .part-2-middle {
+
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .part-2-container{
+
+        height: auto;
+    }
+
+    footer{
+
+        height: auto;
+    }
+
+    .footer-upper-part{
+
+        flex-wrap: wrap;
+    }
+
+    .footer-lower-part{
+
+        flex-direction: column;
+        gap: 3px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .part-1-content h1 {
+        font-size: 40px;
+    }
+
+    .part-1-content p {
+        font-size: 24px;
+    }
+
+    .part-6-content .part-6-title h1 {
+        font-size: 35px;
+    }
+
+    .part-6-content .part-6-title p {
+        font-size: 24px;
+    }
 }
 
 
@@ -504,23 +587,4 @@ footer {
 
 
 
-
-
-
-
-
-/* footer ends */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* responsive ends */
