@@ -550,7 +550,7 @@ footer {
     background-color: transparent;
     display: flex;
     justify-content: center;
-    
+
 
 }
 
@@ -701,7 +701,7 @@ footer {
 }
 
 
-.footer-lower-part{
+.footer-lower-part {
 
     display: flex;
     flex-direction: row;
@@ -712,7 +712,7 @@ footer {
 }
 
 
-.lower-part-icon i{
+.lower-part-icon i {
 
     font-size: 20px;
     color: white;
@@ -723,3 +723,244 @@ footer {
 
 /* footer ends */
 
+
+/* responsive start */
+
+@media screen and (max-width: 992px) {
+
+    header {
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .header-menu-icon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .header-hr {
+        width: 500px;
+        height: 1px;
+        background-color: rgb(230, 226, 226);
+        border: none;
+    }
+
+    /* part-1 starts */
+
+
+
+    .container-part-1 {
+
+
+
+        width: 1000px;
+
+
+
+    }
+
+    /* part-2 starts */
+
+    .container-part-2 {
+
+
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+        height: 800px;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+
+
+    }
+
+
+
+
+
+    /* part-2 end */
+
+    /* part-3-starts */
+
+
+
+    .container-part-3 {
+
+
+
+        width: 1000px;
+
+
+
+    }
+
+
+
+
+
+    /* part 5 starts */
+
+
+    /* ------------------------- */
+    /* ✅ Responsive (992px নিচে) */
+    /* ------------------------- */
+
+    .part-5-content {
+        position: static;
+        /* Position remove */
+        text-align: center;
+        margin: 0 auto;
+        /* Center horizontally */
+    }
+
+    .container-part-5 .btn4 {
+        position: absolute;
+        margin: 30px auto 0 auto;
+        /* Center button */
+        display: inline-block;
+        padding: 0 30px;
+
+    }
+
+    .container-part-5 {
+        padding-top: 100px;
+        width: 1000px;
+        height: 900px;
+    }
+
+    .container-part-5 .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+
+
+    /* part 5 ensds */
+
+
+
+    /* part-6-start */
+
+
+    .container-part-6 {
+
+
+        background-color: white;
+        height: auto;
+        width: 1000px;
+
+    }
+
+
+    .card-container {
+
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        padding-bottom: 10px;
+    }
+
+
+
+
+    /* part-6-ens */
+
+
+
+    
+
+  /* ✅ Footer responsive */
+  footer {
+    height: auto;
+    padding: 20px 0;
+    position: relative;
+    left: 250px;
+  }
+
+  .footer-container {
+    width: 100%;
+    align-items: center;
+  }
+
+  .footer-upper-part {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .upper-card-1,
+  .upper-card-3,
+  .upper-card-4 {
+    text-align: center;
+    width: 80%;
+  }
+
+  .upper-card-1 .title,
+  .upper-card-3 .title,
+  .upper-card-4 .title {
+    text-align: center;
+  }
+
+  .upper-card-1 .upper-card-1-desc {
+    text-align: center;
+  }
+
+  .upper-card-3 .images {
+    justify-content: center;
+  }
+
+  .footer-lower-part {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .lower-part-icon i {
+    font-size: 24px;
+    margin: 0 8px;
+  }
+
+  /* ✅ Extra guarantee — ALL paragraph, buttons center */
+  .upper-card-1 p,
+  .upper-card-3 p,
+  .upper-card-4 p,
+  .upper-card-1 .btn-6,
+  .upper-card-3 .btn-6,
+  .upper-card-4 .btn-6 {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* responsive end */
